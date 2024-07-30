@@ -14,7 +14,7 @@ const LocationCardCategory = () => {
     ];
 
     return (
-        <div className="grid grid-cols-1 border rounded-2xl shadow-lg md:grid-cols-2 gap-4 p-6 max-w-[1920px]">
+        <div className="grid grid-cols-1 border rounded-2xl shadow-lg md:grid-cols-2 gap-4 p-10 max-w-[1920px]">
             {cards.map((card, index) => (
                 <SimpleCard key={index} title={card.title} subtitle={card.subtitle} />
             ))}

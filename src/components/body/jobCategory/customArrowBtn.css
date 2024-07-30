@@ -1,0 +1,31 @@
+.swiper-button-prev-custom,
+.swiper-button-next-custom {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border: 1px solid #9378DE;
+    border-radius: 50%;
+    cursor: pointer;
+    color: black;
+    /* Violet color for the arrow */
+    font-size: 16px;
+    /* Adjust the size of the arrow */
+    font-weight: normal;
+    /* Make the arrow more prominent */
+}
+
+.swiper-button-prev-custom::before,
+.swiper-button-next-custom::before {
+    content: '';
+}
+
+.arrow-left {
+    content: '<';
+}
+
+.arrow-right {
+    content: '>';
+}
