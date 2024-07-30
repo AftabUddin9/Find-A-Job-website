@@ -8,10 +8,10 @@ import liImg from '../../assets/liImg.png';
 const Footer = () => {
     return (
         <div className='bg-transparent border-t-2 border-t-[#9378DE] p-4 max-w-[1920px]'>
-            <div className='my-12 mx-20 flex flex-row justify-between gap-16'>
+            <div className='my-2 mx-20 flex flex-row justify-between gap-16'>
 
                 {/* first column */}
-                <div className='w-1/4 space-y-6 mt-5'>
+                <div className='w-1/4 space-y-6 mt-4'>
                     <a href='/' className='text-2xl font-bold flex items-center space-x-3'>
                         <img src={logo} className='w-10 inline-block items-center' /> <span>Find A Job</span>
                     </a>

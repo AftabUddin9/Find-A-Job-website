@@ -19,7 +19,7 @@ const CardCategory = () => {
     ];
 
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mx-24 max-w-[1920px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-4 gap-x-10 mx-24 max-w-[1920px]">
             {cards.map((card, index) => (
                 <SimpleCard key={index} title={card.title} subtitle={card.subtitle} />
             ))}

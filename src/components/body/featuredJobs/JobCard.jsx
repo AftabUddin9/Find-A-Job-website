@@ -9,12 +9,12 @@ const JobCard = ({ card }) => {
                 <FaBriefcase className="mr-2" /> {card.status}
                 <FaClock className="ml-4 mr-2" /> {card.postedTime}
             </div>
-            <p className='text-gray-700 mb-4'>{card.description}</p>
+            <p className='text-gray-700'>{card.description}</p>
             <ul className='list-disc list-inside flex flex-row gap-8 mb-24 text-gray-600'>
                 <li>{card.skill1}</li>
                 <li>{card.skill2}</li>
             </ul>
-            <button className='bg-[#9378DE] text-white rounded-full shadow-lg w-32 p-1 mb-10 absolute bottom-4 right-4'>
+            <button className='bg-[#9378DE] text-white border-[1px] border-[#785fbe] rounded-full min-w-32 pt-[4px] pb-[7px] hover:bg-[#9378DE] absolute bottom-10 right-6'>
                 <span className='font-semibold'>Apply</span>
             </button>
         </div>
