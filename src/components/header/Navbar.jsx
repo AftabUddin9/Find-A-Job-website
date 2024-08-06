@@ -35,12 +35,12 @@ const Navbar = () => {
                     <div className='flex gap-3'>
                         <Link>
                             <button className='bg-white text-[#785fbe] rounded-full border-[1px] border-[#785fbe] shadow-xl min-w-32 p-[4px] pb-[7px] hover:text-black'>
-                                <span className='font-bold'>Post a Job</span>
+                                <span className='font-bold'>Login</span>
                             </button>
                         </Link>
                         <Link>
                             <button className='bg-[#785fbe] text-white rounded-full border-[1px] border-[#785fbe] shadow-xl min-w-32 pt-[4px] pb-[7px] hover:bg-[#9378DE]'>
-                                <span className='font-bold'>Apply</span>
+                                <span className='font-bold'>Sign up</span>
                             </button>
                         </Link>
                     </div>

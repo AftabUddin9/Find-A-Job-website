@@ -5,7 +5,7 @@ import LocationCardSlider from './locationJobCategory/LocationCardSlider'
 
 const LocationJobBanner = () => {
     return (
-        <div className='flex flex-row mb-20 mx-10 max-w-[1230px]'>
+        <div className='flex flex-row mb-20 mx-20 max-w-[1230px]'>
             <div className='w-1/2'>
                 {/* picture */}
                 <img src={banner02} alt='Banner' className='w-[432px] h-[328px]' />

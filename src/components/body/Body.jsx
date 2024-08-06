@@ -9,7 +9,7 @@ import LandingPage from './LandingPage'
 
 const Body = () => {
     return (
-        <div className='mx-8 my-8'>
+        <div className='mx-16 my-8'>
             <LandingPage />
             <JobCategory />
             <ExploringBanner />

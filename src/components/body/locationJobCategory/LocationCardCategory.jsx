@@ -16,7 +16,10 @@ const LocationCardCategory = () => {
     return (
         <div className="grid grid-cols-1 border rounded-2xl shadow-lg md:grid-cols-2 gap-4 p-10 max-w-[1920px]">
             {cards.map((card, index) => (
-                <SimpleCard key={index} title={card.title} subtitle={card.subtitle} />
+                <div className='hover:scale-105'>
+                    <SimpleCard key={index} title={card.title} subtitle={card.subtitle} />
+                </div>
+
             ))}
         </div>
     );
