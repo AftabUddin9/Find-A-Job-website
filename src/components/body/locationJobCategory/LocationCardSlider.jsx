@@ -42,13 +42,13 @@ const LocationCardSlider = () => {
             {/* Custom Navigation Buttons */}
             <div
                 ref={prevRef}
-                className="absolute top-1/2 left-[-28px] transform -translate-y-1/2 z-10 border-[1px] p-7 border-[#785fbe] flex items-center justify-center w-10 h-10 text-gray-500 bg-white rounded-full cursor-pointer shadow-md"
+                className="absolute top-1/2 left-[-28px] transform -translate-y-1/2 z-10 border-[1px] p-2 md:p-7 border-[#785fbe] flex items-center justify-center w-10 h-10 text-gray-500 bg-white rounded-full cursor-pointer shadow-md"
             >
                 <FontAwesomeIcon icon={faChevronLeft} />
             </div>
             <div
                 ref={nextRef}
-                className="absolute top-1/2 right-[-28px] transform -translate-y-1/2 z-10 border-[1px] p-7 border-[#785fbe] flex items-center justify-center w-10 h-10 text-gray-500 bg-white rounded-full cursor-pointer shadow-md"
+                className="absolute top-1/2 right-[-28px] transform -translate-y-1/2 z-10 border-[1px] p-2 md:p-7 border-[#785fbe] flex items-center justify-center w-10 h-10 text-gray-500 bg-white rounded-full cursor-pointer shadow-md"
             >
                 <FontAwesomeIcon icon={faChevronRight} />
             </div>

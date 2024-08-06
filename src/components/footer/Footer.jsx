@@ -7,15 +7,16 @@ import liImg from '../../assets/liImg.png';
 
 const Footer = () => {
     return (
-        <div className='bg-transparent border-t-2 border-t-[#9378DE] p-4 max-w-[1920px]'>
-            <div className='my-2 mx-20 flex flex-row justify-between gap-16'>
+        <div className='bg-transparent border-t-2 border-t-[#9378DE] p-2 md:p-4 max-w-screen-2xl'>
+            <div className='my-2 md:mx-20 flex flex-row justify-between gap-4 md:gap-16'>
 
                 {/* first column */}
-                <div className='w-1/4 space-y-6 mt-4'>
-                    <a href='/' className='text-2xl font-bold flex items-center space-x-3'>
-                        <img src={logo} className='w-10 inline-block items-center' /> <span>Find A Job</span>
+                <div className='w-1/2 md:w-1/4 space-y-1 md:space-y-6 mt-4'>
+                    <a href='/' className='text-lg md:text-2xl font-bold flex flex-col md:flex-row md:items-center md:space-x-3'>
+                        <img src={logo} className='w-10 inline-block items-center' />
+                        <span>Find A Job</span>
                     </a>
-                    <p className=''>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus adipisci, sapiente molestiae ad doloribus recusandae tempora quas vero debitis distinctio neque expedita molestias deleniti incidunt. Corporis rerum quis iusto ut?</p>
+                    <p className='text-sm md:text-base'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus adipisci, sapiente molestiae ad doloribus recusandae tempora quas vero debitis distinctio neque expedita molestias deleniti incidunt. Corporis rerum quis iusto ut?</p>
                     <div className='flex items-center space-x-5'>
                         <img src={fbImg} className='w-8 cursor-pointer hover:-translate-y-4 transition-all duration-300' />
                         <img src={igImg} className='w-8 cursor-pointer hover:-translate-y-4 transition-all duration-300' />
@@ -26,7 +27,7 @@ const Footer = () => {
 
 
                 {/* contact */}
-                <div className='w-1/4 space-y-4 mt-5'>
+                <div className='w-1/2 md:w-1/4 space-y-4 mt-5'>
                     <h4 className='text-xl font-semibold'>Contact</h4>
                     <ul className='space-y-3'>
                         <div className='flex flex-row items-start gap-4'>
@@ -60,7 +61,7 @@ const Footer = () => {
                 </div>
 
                 {/* helpful resources */}
-                <div className='w-1/4 space-y-4 mt-5'>
+                <div className='hidden md:block w-1/4 space-y-4 mt-5'>
                     <h4 className='text-xl font-semibold'>Helpful Resources</h4>
                     <ul className='space-y-3'>
                         <a href='/' className='block hover:text-[#9378DE]'>Create Account</a>
@@ -73,7 +74,7 @@ const Footer = () => {
                 </div>
 
                 {/* job seekers */}
-                <div className='w-1/4 space-y-4 mt-5'>
+                <div className='hidden md:block w-1/4 space-y-4 mt-5'>
                     <h4 className='text-xl font-semibold'>Job Seekers</h4>
                     <ul className='space-y-3'>
                         <a href='/' className='block hover:text-[#9378DE]'>Create Account</a>

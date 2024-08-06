@@ -3,7 +3,7 @@ import JobCardGrid from './featuredJobs/JobCardGrid'
 
 const FeaturedJobs = () => {
     return (
-        <div className='mt-20 space-y-8'>
+        <div className='hidden mt-20 space-y-8'>
             {/* heading & subtitle */}
             <div className='flex flex-col items-center gap-4'>
                 <p className='text-4xl text-[#595959] font-bold'>Featured Jobs of The Day</p>
