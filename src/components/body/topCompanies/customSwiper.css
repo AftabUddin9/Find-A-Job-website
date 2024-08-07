@@ -1,0 +1,38 @@
+.swiper-button-prev-custom,
+.swiper-button-next-custom {
+    background-color: white;
+    border: 1px solid #785fbe;
+    color: #785fbe;
+}
+
+.swiper-button-prev-custom svg,
+.swiper-button-next-custom svg {
+    fill: #785fbe;
+}
+
+.swiper-button-prev-custom:hover,
+.swiper-button-next-custom:hover {
+    background-color: #785fbe;
+    color: white;
+}
+
+.swiper-button-prev-custom:hover svg,
+.swiper-button-next-custom:hover svg {
+    fill: white;
+}
+
+.company-card {
+    width: 100%;
+    /* Additional styling for the card */
+}
+
+.mySwiper {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.mySwiper .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

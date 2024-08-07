@@ -13,7 +13,7 @@ const JobCategory = () => {
             {/* category tags */}
             <CategoryTags />
             {/* categories slider */}
-            <div className='hidden md:block'>
+            <div className='hidden'>
                 <CardSlider />
             </div>
         </div>

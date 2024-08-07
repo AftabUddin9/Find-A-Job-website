@@ -4,7 +4,7 @@ import banner01 from '../../assets/banner01.png';
 const ExploringBanner = () => {
     return (
         <div className='hidden md:block'>
-            <div className="relative flex mr-20">
+            <div className="relative flex mx-20">
                 <div className="bg-gradient-to-r from-[rgba(0,171,177,0.93)] to-[#0bf9c5] border-[1px] border-[#12cfa6] text-white flex flex-col justify-between p-8 w-5/6 my-32 mx-auto rounded-[36px] relative z-0 overflow-hidden">
                     <div className="flex flex-col space-y-2">
                         <h1 className="text-4xl font-bold">Climb The Career Ladder</h1>
@@ -20,7 +20,6 @@ const ExploringBanner = () => {
                             src={banner01}
                             alt="Banner"
                             className="w-[360px] h-[350px] rounded-full border-2 border-[#afcff8] shadow-lg"
-
                         />
                     </div>
                 </div>

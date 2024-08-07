@@ -1,5 +1,5 @@
 import React from 'react'
-import companies from '../../assets/companies.png'
+import CompanyCardSlider from './topCompanies/CompanyCardSlider'
 
 const TopCompanies = () => {
     return (
@@ -10,9 +10,9 @@ const TopCompanies = () => {
                 <p className='text-lg md:text-2xl text-center text-[#989898]'>Find the right compay  that’s perfect for you.</p>
             </div>
             {/* categories slider */}
-            <div className='border shadow-lg max-w-full mx-20 items-center'>
+            <div className='md:mx-20'>
                 {/* slider */}
-                <img src={companies} className='mx-auto my-6 ' />
+                <CompanyCardSlider />
             </div>
         </div>
     )
