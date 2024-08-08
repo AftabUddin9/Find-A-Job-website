@@ -21,7 +21,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <nav className='bg-white md:px-32 p-6 max-w-screen-2xl shadow-lg mx-auto fixed top-0 left-0 right-0 z-50'>
+            <nav className='bg-white md:px-32 p-3 max-w-screen-2xl shadow-lg mx-auto fixed top-0 left-0 right-0 z-50'>
                 <div className='text-md container mx-auto flex justify-between items-center font-medium'>
                     <div className='flex gap-20 items-center'>
                         <a href='/' className='flex items-center space-x-3 text-primary'>
